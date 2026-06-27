@@ -94,11 +94,12 @@ pip install fastapi uvicorn pydantic
 # Run the FastAPI server
 python main.py
 The backend will now be running on http://localhost:8000.
+```
 
 2. Start the Frontend
 The frontend tracks telemetry and provides the user interface. Open a new terminal window and run:
 
-Bash
+```bash
 # Navigate to the frontend directory
 cd frontend
 
@@ -107,4 +108,6 @@ npm install
 
 # Start the development server
 npm run dev
+```
+
 Click the http://localhost:5173 link in your terminal to open the CITE portal in your browser.
