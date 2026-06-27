@@ -1,0 +1,6 @@
+# Backend / Python ignores
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/venv/
+backend/.venv/
